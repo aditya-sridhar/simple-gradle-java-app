@@ -40,3 +40,13 @@ test {
     // Use junit platform for unit tests
     useJUnitPlatform()
 }
+
+task projectupper {
+    group = 'Custom Tasks'
+    description = 'Task to get Project Name and Convert it to upper case'
+    doLast {
+        String projectName = project.name
+        println "Project Name: $projectName"
+        println "Upper case: ${projectName.toUpperCase()}"
+    }
+}
