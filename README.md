@@ -1,6 +1,10 @@
 # Simple Gradle Java APP
 Simple Java App Created with Gradle
 
+Please read this Article to make the best use of this git repo
+
+[https://adityasridhar.com/posts/how-to-get-started-with-gradle](https://adityasridhar.com/posts/how-to-get-started-with-gradle)
+
 ## Cloning the Code
 
 Clone this code into your local using the following command
