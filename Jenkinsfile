@@ -16,7 +16,7 @@ pipeline{
                     withSonarQubeEnv(credentialsId: 'sonar-token') {
 
                         sh 'chmod +x gradlew'
-			sh '/gradlew clean build -d sonarqube'
+			            sh './gradlew clean build -d sonarqube'
                         sh './gradlew sonarqube'			
                     }
                 }
