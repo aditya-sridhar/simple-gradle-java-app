@@ -10,6 +10,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-            System.out.println("Sum is " + getSum(4,5));
+            System.out.println("Sum is the roshan sum" + getSum(4,5));
     }
 }
